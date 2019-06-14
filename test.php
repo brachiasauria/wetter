@@ -21,7 +21,7 @@ $weather = json_decode($weather, true);
   $max_temp = $weather["max_temp"];
 
   $max_temp= round($max_temp);
-
+//*wenn ich im string den datei-typ mit konkatinator verbinde, habe ich aus dem namen der variablen die entsprechende datei hergestellt
   $today_state = $weather["weather_state_abbr"] . ".svg";
 
   $abbr=$weather["weather_state_abbr"];
